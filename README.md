@@ -53,7 +53,7 @@
 -   Data Loading: Была проблема, что на винде работал у меня только num_workers: 0. Я решил поставить его в 8 и все было круто: у меня утилизация карты 80%, но после 5к шагов она падает до 35%. Честно так и не разобрался какого фига.
 
 ### 6. Графики (CometML)
-   Весь отчет обучения есть [здесь]([https://www.comet.com/tiltovskii/pytorch-template-asr-example/view/new/panels](https://www.comet.com/tiltovskii/pytorch-template-asr-example/view/g2mu7GFBqSJWE5wSdigXxPQks/panels)) 
+   Весь отчет обучения есть [здесь](https://www.comet.com/tiltovskii/pytorch-template-asr-example/view/g2mu7GFBqSJWE5wSdigXxPQks/panels)
 
    Вот этот график круче всех, где видно, что на валидации лучше всего падает BPE 1k на train-500-other
    ![alt text](images/image.png)
